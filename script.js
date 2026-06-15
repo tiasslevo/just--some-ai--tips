@@ -5,20 +5,20 @@ const channelMessages = [
   {
     name: "Parlons IA",
     time: "Aujourd'hui, 09:12",
-    body: "Nouveau guide partagé : <strong>Product Shoot Prompt Kit</strong>. Avant / après, prompt et variantes.",
-    actionLabel: "Voir le guide",
-    actionHref: "./articles/product-photo-prompt/"
+    body: "<strong>Masterclass gratuite sur la génération d'images IA</strong> : samedi 20 juin à 20h GMT, en ligne sur Google Meet.",
+    actionLabel: "Voir le programme",
+    actionHref: "./ateliers/"
   },
   {
     name: "Parlons IA",
     time: "Aujourd'hui, 11:08",
-    body: "<strong>Atelier Parlons IA</strong> très bientôt. Le thème et le format seront annoncés ici."
+    body: "Au programme : personal branding, reverse engineering de prompts, layering, retouche et photos corporate pro."
   },
   {
     name: "Parlons IA",
     time: "Aujourd'hui, 14:42",
-    body: "Concours terminé : les participations pour la <strong>carte d'invitation de mariage IA</strong> sont closes. Délibération en cours, résultats bientôt.",
-    actionLabel: "Voir le statut",
+    body: "Concours terminé : félicitations à <strong>Serge</strong>, gagnant de la carte d'invitation de mariage IA.",
+    actionLabel: "Voir le concours",
     actionHref: "./concours/"
   }
 ];
@@ -27,17 +27,17 @@ const communityMessages = [
   {
     name: "Maya",
     time: "09:22",
-    body: "Quelqu'un a déjà testé GPT Image pour une invitation élégante avec de vrais espaces pour le texte ?"
+    body: "La masterclass de samedi va aussi montrer comment améliorer une image déjà générée ?"
   },
   {
     name: "Boris",
     time: "09:28",
-    body: "Oui. Commence simple : ton, composition, marges, puis seulement après les détails visuels."
+    body: "Oui. On va parler génération, retouche, layering et rendu final propre."
   },
   {
     name: "Kevin",
     time: "09:31",
-    body: "Poste ton essai dans la communauté, on pourra te faire un retour dessus."
+    body: "Préparez vos exemples si vous voulez qu'on regarde certains cas pendant ou après le live."
   }
 ];
 
