@@ -5,10 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Product Shoot Prompt Kit — Parlons IA</title>
   <meta name="description" content="Un prompt kit simple pour transformer une photo produit en visuel publicitaire plus propre et plus crédible.">
+  <meta name="theme-color" content="#0b100e">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b100e'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='38' font-weight='700' fill='%2310b981' text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E">
+  <script>document.documentElement.classList.add("js");</script>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/lucide@latest"></script>
   <script>
     tailwind.config = {
@@ -26,12 +29,12 @@
   <link rel="stylesheet" href="../../article.css">
 </head>
 <body class="article-page min-h-screen flex flex-col antialiased">
-  <header class="sticky top-0 z-40 w-full border-b border-zinc-200/80 bg-white/80 backdrop-blur-md">
+  <header class="site-header sticky top-0 z-40 w-full border-b border-zinc-200/80 bg-white/80 backdrop-blur-md">
     <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-      <div class="flex h-16 items-center justify-between">
+      <div class="header-inner flex h-16 items-center justify-between">
         <div class="flex items-center gap-3">
           <a href="../../" class="flex items-center gap-2 group">
-            <span class="h-8 w-8 rounded-lg bg-zinc-950 flex items-center justify-center text-white font-serif font-bold text-lg tracking-wider transition-transform group-hover:scale-105">P</span>
+            <span class="brand-mark h-8 w-8 text-lg">P</span>
             <span class="text-sm font-semibold tracking-tight text-zinc-900">Parlons IA</span>
           </a>
         </div>
@@ -307,13 +310,13 @@
     <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-zinc-900">
         <div class="flex items-center gap-2">
-          <span class="h-6 w-6 rounded bg-white text-zinc-950 flex items-center justify-center font-serif font-bold text-sm">P</span>
+          <span class="brand-mark h-7 w-7 text-sm !bg-white !text-zinc-950">P</span>
           <span class="font-semibold text-white">Parlons IA</span>
         </div>
         <div class="flex items-center gap-6">
-          <a href="../../" class="hover:text-white transition">Accueil</a>
-          <a href="../../ateliers/" class="hover:text-white transition">Ateliers</a>
-          <a href="../../concours/" class="hover:text-white transition">Concours</a>
+          <a href="../../" class="footer-link">Accueil</a>
+          <a href="../../ateliers/" class="footer-link">Ateliers</a>
+          <a href="../../concours/" class="footer-link">Concours</a>
         </div>
       </div>
 
@@ -339,6 +342,11 @@
             Rejoindre la communauté
           </a>
         </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-3 mt-8 pt-6 border-t border-zinc-900 text-xs text-zinc-600">
+        <span>© <span data-year>2026</span> Parlons IA. Tous droits réservés.</span>
+        <span>Chaîne pour recevoir. Communauté pour échanger.</span>
       </div>
     </div>
   </footer>
