@@ -1,0 +1,4 @@
+interface:
+  display_name: "NoSlop FR"
+  short_description: "Écrire en français sans les tics de l’IA"
+  default_prompt: "Utilise $no-slop-fr pour réécrire ce texte en français naturel sans changer son fond."

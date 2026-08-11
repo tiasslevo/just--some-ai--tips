@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parlons IA — NoSlop FR</title>
+  <meta name="description" content="Télécharger NoSlop FR, le skill français qui retire les tics d’écriture IA sans dénaturer le fond ni la voix.">
+  <meta name="theme-color" content="#0b100e">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b100e'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='38' font-weight='700' fill='%2310b981' text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E">
+  <script>document.documentElement.classList.add("js");</script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', "sans-serif"],
+            serif: ['"Playfair Display"', "serif"]
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body class="min-h-screen flex flex-col antialiased">
+  <header class="site-header sticky top-0 z-40 w-full border-b border-zinc-200/80 bg-white/80 backdrop-blur-md">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      <div class="header-inner flex h-16 items-center justify-between">
+        <div class="flex items-center gap-3">
+          <a href="../../" class="flex items-center gap-2 group">
+            <span class="brand-mark h-8 w-8 text-lg">P</span>
+            <span class="text-sm font-semibold tracking-tight text-zinc-900">Parlons IA</span>
+          </a>
+        </div>
+
+        <div class="hidden sm:flex items-center gap-3">
+          <a href="../" class="inline-flex items-center justify-center rounded-lg text-xs font-semibold px-4 py-2 border border-zinc-200 bg-white hover:bg-zinc-50 text-zinc-800 transition shadow-sm">
+            Retour aux skills
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow">
+    <section class="section-compact bg-white border-b border-zinc-200/60 relative overflow-hidden">
+      <div class="absolute inset-0 bg-[radial-gradient(#e4e4e7_1px,transparent_1px)] [background-size:24px_24px] opacity-40"></div>
+      <div class="relative mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-zinc-900 text-white text-[10px] font-semibold tracking-wider uppercase mb-4">
+          Skill français
+        </span>
+        <h1 class="editorial-title text-4xl sm:text-5xl font-normal text-zinc-900 tracking-tight leading-tight">
+          NoSlop FR
+        </h1>
+        <p class="text-sm sm:text-base text-zinc-500 max-w-2xl mx-auto mt-4 leading-relaxed font-light font-sans">
+          Le skill qui empêche l’IA d’écrire comme une IA.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-compact section-wash-soft">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <div class="bg-white rounded-2xl border border-zinc-200 shadow-[0_8px_30px_rgb(0,0,0,0.02)] p-6 sm:p-10 mb-8">
+          <div class="border-b border-zinc-100 pb-8 mb-8">
+            <div class="max-w-2xl">
+              <span class="text-[10px] font-bold tracking-wider text-emerald-600 uppercase">Téléchargement</span>
+              <h2 class="font-serif text-2xl sm:text-3xl text-zinc-900 mt-2">Récupérer NoSlop FR</h2>
+              <p class="text-sm text-zinc-600 leading-relaxed mt-5">
+                NoSlop FR retire les tournures reconnaissables des textes générés par IA : antithèses automatiques, triades, phrases-pivots, punchlines fabriquées et conclusions de chatbot. Il conserve le fond, le registre et la voix de départ.
+              </p>
+              <div class="flex flex-col sm:flex-row gap-3 mt-6">
+                <a class="inline-flex items-center justify-center rounded-lg text-xs font-semibold px-5 py-3 bg-zinc-950 hover:bg-zinc-800 text-white transition shadow-sm" href="./no-slop-fr-SKILL.txt" download="no-slop-fr-SKILL.md">
+                  Télécharger le skill
+                </a>
+                <a class="inline-flex items-center justify-center rounded-lg text-xs font-semibold px-5 py-3 border border-zinc-200 bg-white hover:bg-zinc-50 text-zinc-800 transition shadow-sm" href="./SKILL.md" target="_blank" rel="noopener">
+                  Voir le contenu
+                </a>
+              </div>
+              <p class="text-xs text-zinc-400 mt-4">
+                Le fichier est prêt à être ajouté à Claude Code, Codex ou un autre outil compatible avec les skills.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 bg-zinc-50 rounded-xl p-6 border border-zinc-200/60 text-xs">
+            <div>
+              <h3 class="font-bold text-zinc-900 mb-2">Retire les tics IA</h3>
+              <p class="text-zinc-500 leading-relaxed">Il repère les formules, rythmes et mots qui donnent au texte une voix de chatbot.</p>
+            </div>
+            <div>
+              <h3 class="font-bold text-zinc-900 mb-2">Garde le fond</h3>
+              <p class="text-zinc-500 leading-relaxed">Il réécrit sans inventer d’expérience, modifier les faits ou lisser la position de l’auteur.</p>
+            </div>
+            <div>
+              <h3 class="font-bold text-zinc-900 mb-2">Écrit en français</h3>
+              <p class="text-zinc-500 leading-relaxed">Il adapte le ton au format et évite les tournures qui ressemblent à une traduction de l’anglais.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-zinc-950 text-zinc-400 py-12 border-t border-zinc-900 text-xs">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-zinc-900">
+        <div class="flex items-center gap-2">
+          <span class="brand-mark h-7 w-7 text-sm !bg-white !text-zinc-950">P</span>
+          <span class="font-semibold text-white">Parlons IA</span>
+        </div>
+        <div class="flex items-center gap-6">
+          <a href="../../" class="footer-link">Accueil</a>
+          <a href="../../ateliers/" class="footer-link">Ateliers</a>
+          <a href="../../concours/" class="footer-link">Concours</a>
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-3 mt-8 pt-6 border-t border-zinc-900 text-xs text-zinc-600">
+        <span>© <span data-year>2026</span> Parlons IA. Tous droits réservés.</span>
+        <span>Chaîne pour recevoir. Communauté pour échanger.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../script.js"></script>
+</body>
+</html>
